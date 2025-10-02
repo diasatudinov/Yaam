@@ -1,12 +1,20 @@
+//
+//  ZZAchievementsViewModel.swift
+//  Yaam
+//
+//
+
+
 import SwiftUI
 
 class ZZAchievementsViewModel: ObservableObject {
     
     @Published var achievements: [NEGAchievement] = [
-        NEGAchievement(image: "achieve1ImageZZ", title: "achieve1TextZZ", isAchieved: false),
-        NEGAchievement(image: "achieve2ImageZZ", title: "achieve2TextZZ", isAchieved: false),
-        NEGAchievement(image: "achieve3ImageZZ", title: "achieve3TextZZ", isAchieved: false),
-        NEGAchievement(image: "achieve4ImageZZ", title: "achieve4TextZZ", isAchieved: false),
+        NEGAchievement(image: "achieve1ImageY", title: "upgrade all\nspells", isAchieved: false),
+        NEGAchievement(image: "achieve2ImageY", title: "buy all\nspells per\nlevel ", isAchieved: false),
+        NEGAchievement(image: "achieve3ImageY", title: "Defeat 50\nenemies", isAchieved: false),
+        NEGAchievement(image: "achieve4ImageY", title: "Complete the\nlevel on hard\ndifficulty", isAchieved: false),
+        NEGAchievement(image: "achieve5ImageY", title: "upgrade\ntower health", isAchieved: false),
 
     ] {
         didSet {
@@ -19,7 +27,7 @@ class ZZAchievementsViewModel: ObservableObject {
         
     }
     
-    private let userDefaultsAchievementsKey = "achievementsKeyZZ"
+    private let userDefaultsAchievementsKey = "achievementsKeyY"
     
     func achieveToggle(_ achive: NEGAchievement) {
         guard let index = achievements.firstIndex(where: { $0.id == achive.id })
