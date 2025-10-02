@@ -2,7 +2,6 @@
 //  YaamApp.swift
 //  Yaam
 //
-//  Created by Dias Atudinov on 01.10.2025.
 //
 
 import SwiftUI

@@ -10,10 +10,10 @@ import SwiftUI
 
 struct ZZCoinBg: View {
     @StateObject var user = ZZUser.shared
-    var height: CGFloat = ZZDeviceManager.shared.deviceType == .pad ? 100:50
+    var height: CGFloat = ZZDeviceManager.shared.deviceType == .pad ? 100:65
     var body: some View {
         ZStack {
-            Image(.coinsBgZZ)
+            Image(.coinsBgY)
                 .resizable()
                 .scaledToFit()
             

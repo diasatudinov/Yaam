@@ -1,3 +1,11 @@
+//
+//  ZZDeviceManager.swift
+//  Yaam
+//
+//  Created by Dias Atudinov on 02.10.2025.
+//
+
+
 import UIKit
 
 class ZZDeviceManager {
