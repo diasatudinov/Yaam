@@ -15,7 +15,7 @@ struct YMenuView: View {
     @State private var showCalendar = false
     @State private var showDailyReward = false
     
-    //    @StateObject var shopVM = CPShopViewModel()
+    @StateObject var shopVM = CPShopViewModel()
     
     var body: some View {
         
@@ -87,19 +87,16 @@ struct YMenuView: View {
                 }
             )
             .fullScreenCover(isPresented: $showGame) {
-                //                LevelPickerView()
+                YChooseLevel()
             }
             .fullScreenCover(isPresented: $showAchievement) {
                 YAchievementsView()
             }
             .fullScreenCover(isPresented: $showShop) {
-                //                ZZShopView(viewModel: shopVM)
+                YShopView(viewModel: shopVM)
             }
             .fullScreenCover(isPresented: $showSettings) {
                 YSettingsView()
-            }
-            .fullScreenCover(isPresented: $showDailyReward) {
-                //                ZZDailyView()
             }
     }
 }

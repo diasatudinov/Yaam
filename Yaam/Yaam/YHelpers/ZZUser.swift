@@ -2,7 +2,6 @@
 //  ZZUser.swift
 //  Yaam
 //
-//  Created by Dias Atudinov on 02.10.2025.
 //
 
 

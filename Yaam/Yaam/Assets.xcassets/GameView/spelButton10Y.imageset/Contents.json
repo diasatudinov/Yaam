@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "spelButton10Y.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

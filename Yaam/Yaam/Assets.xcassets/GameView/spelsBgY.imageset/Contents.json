@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "spelsBgY.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
